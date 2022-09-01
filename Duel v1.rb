@@ -37,7 +37,10 @@ if random1 > random2
 elsif random1 == random2
   puts "Заклинило!"
 
+  sleep 1
+
     # теперь стреляет Боба
+    puts ''
     puts "Боба выстрелил в ответ и..."
 
     random1 = (rand * 10).to_i + 1
@@ -56,6 +59,8 @@ else
 
     # теперь стреляет Боба
 
+  sleep 1
+    puts ''
     puts "Боба выстрелил в ответ и..."
 
       random1 = (rand * 10).to_i + 1
@@ -76,5 +81,6 @@ end
 
 end
 
+puts ''
 puts "Для выхода нажмите Enter"
 gets
